@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2.3 Anchor Tags</title>
+    </head>
+    <body>
+        <p><a href="https://en.wikipedia.org/wiki/Serena_Williams" target="blank"> Serena Jameka Williams</a>, born September 26, 1981, is an American professional tennis player. Williams was born in Saginaw, Michigan and is the youngest of five daughters including her sister, <a href="https://en.wikipedia.org/wiki/Venus_Williams" target="blank">Venus Williams</a>. When the children were young, the family moved to <a href="https://en.wikipedia.org/wiki/Compton,_California" target="blank"> Compton, California </a>, where Williams started playing tennis at the age of four. In addition to being a tennis superstar, Serena is a model, activist, entertainer, philanthropist and author. Williams released her first solo autobiography entitled <a href="https://www.google.com/search?q=on+the+line+book+review+serena+williams&sxsrf=AB5stBjOJ867sWVCS6nKCs8IKAT2J3IgwA%3A1691067941353&ei=JabLZKKTFY2ZkdUP24yT2AY&ved=0ahUKEwjiub3_xsCAAxWNTKQEHVvGBGsQ4dUDCA8&uact=5&oq=on+the+line+book+review+serena+williams&gs_lp=Egxnd3Mtd2l6LXNlcnAiJ29uIHRoZSBsaW5lIGJvb2sgcmV2aWV3IHNlcmVuYSB3aWxsaWFtczIFECEYoAEyBRAhGKABSKhUUJIEWNlQcAF4AZABAJgByQKgAfghqgEGMi0xNC4yuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICCBAhGBYYHhgdwgIEECEYFcICBxAhGKABGAriAwQYACBBiAYBkAYI&sclient=gws-wiz-serp" target="blank"> On the Line</a>, following the 2009 US Open.</p>
+    </body>
+</html>
