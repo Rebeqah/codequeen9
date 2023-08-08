@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Profile</title>
+    </head>
+    <body>
+        <h1>Hello, I'm Rebecca</h1>
+        <img src="https://avatars.githubusercontent.com/u/141017043?v=4" alt="This is an image of Rebecca" width="100px">
+        <p>I am Rebecca Nabejja, a content creator, writer, and storyteller.</p>
+        <a href="https://ug.linkedin.com/in/rebecca-nabejja-37147914a" target="blank">Rebecca's LinkedIn Profile</a><br>
+
+        <h2><strong>What I do for work:</strong></h2>
+        <p>I am passionate about journalism and communications. I am a <a href="http://mciug.org/">Media Challenge Fellowship Alumnus 2018</a></p><br>
+        <h2>About me:</h2>
+        <p>I am a simple young lady passionate about photography and writing. The little things in life make me smile</p><br>
+        <h2>My future aspirations</h2>
+        <p>I am currently learning HTML, CSS & Javascript in my <a href="https://www.etc.education/kampala">CodeQueen Classes</a></p>
+
+    <caption>Follow Me</caption>
+    <ul>
+        <li><img src="/images/GitHub.png" width="30px"></li>
+        <li><img src="/images/linkedin.png" width="30px"></li>
+        <li><img src="/images/x.png" width="30px"><p><a href="https://twitter.com/RebeccaNabejja" target="blank">@RebeccaNabejja</a></p></li>
+    </ul>
+
+
+    </body>
+</html>
