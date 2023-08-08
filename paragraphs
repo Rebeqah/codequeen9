@@ -1,3 +1,11 @@
-<p>First paragraph</p><br>
-<p>Second paragraph</p><br>
-<p>Third paragraph</p><br>
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>Paragraphs></title>
+ </head>
+ <body>
+     <p>First paragraph</p><br>
+     <p>Second paragraph</p><br>
+    <p>Third paragraph</p><br>
+ </body>
+</html>
