@@ -1,3 +1,11 @@
-<h1>A large heading</h1>
-<h3>A smaller heading or subtitle</h3>
-<p>Some basic text</p>
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>Paragraphs></title>
+ </head>
+ <body>
+      <h1>A large heading</h1>
+      <h3>A smaller heading or subtitle</h3>
+      <p>Some basic text</p>
+ </body>
+</html>
