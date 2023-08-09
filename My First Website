@@ -8,5 +8,104 @@
 <body>
     <p>This is so fun!! But I need to figure out how to make things <strong>bold.</strong></p>
     <p>Now for <em>italics</em></p>
+
+<!--This is where the second 'My First Website' assignment' begins-->
+
+    <!--These are headings-->
+<h1>Hey Guys, Come see me CODE! Yeey!!</h1>
+<h2>Quite Interesting</h2>
+<h3>Quite Interesting</h3>
+<h4>Quite Interesting</h4>
+<h5>Quite Intersting</h5>
+<h6>Quite Interesting</h6>
+
+<!--this are paragraphs-->
+<p>The main forum of the festival <br>will run in the afternoon</p>
+<p>The main forum will adopt a live TV talk show</p>
+<hr>
+<!--this is an unordered list-->
+<ul>
+    <li>Rabbit Sniffles</li>
+    <li>Flamingo Percy</li>
+    <li>Panda Peggy</li>
+</ul>
+<!--this is an ordered list-->
+<ol>
+    <li>Sniffles</li>
+    <li>Percy</li>
+    <li>Peggy</li>
+</ol>
+<ul>
+    <li>Right</li>
+    <li>Left</li>
+    <li>Up</li>
+    <li>down</li>
+</ul>
+
+
+<!--This is a table-->
+<table>
+    <caption>Names</caption>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+    </tr>
+    <tr>
+        <td>Serena Williams</td>
+        <td>41</td>
+        <td>Female</td>
+    </tr>
+    <tr>
+        <td>Kendrick Lamar</td>
+        <td>36</td>
+        <td>Male</td>
+    </tr>
+    <tr>
+        <td>Lil Nas X</td>
+        <td>24</td>
+        <td>Male</td>
+    </tr>
+</table>
+<br>
+<hr>
+<br>
+<form>
+    <label for="First Name"> First Name: </label><br>
+    <input type="name" name="name"><br>
+    <label for="Second Name"> Second Name: </label><br>
+    <input type="name" name="name"><br></input>
+    <label for="Email Address"> Email Address: </label><br>
+    <input type="address" address="address"><br>
+    <label for="Password"> Password: </label><br>
+    <input type="password" password="password"><br>
+    <input type="Submit" value="Submit">
+</form>
+<br>
+<hr>
+<br>
+
+<caption>List</caption>
+<ul>
+    <li><a href="https://en.wikipedia.org/wiki/Serena_Williams" target="_blank">Serena Williams</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Kendrick_Lamar" target="blank">Kendrick Lamar</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Lil_Nas_X" target="blank">Lil Nas X</a></li>
+</ul>
+<!--This is where the assignment ends-->
+
+<form>
+    <label for="First name"> First Name: </label><br>
+    <input type="name" name="name"><br>
+    <label for="Second Name"> Second Name: </label><br>
+    <input type="text" name="name"><br>
+    <input type="submit" value="Submit">
+</label>
+</form>
+<img src="Bus.jpg" width="1080px">
+
+    <h1>My First Website</h1>
+    <p>This is so fun!! But I need to figure out how to make things <strong>bold</strong></p>
+    <p>Now for <em>italics</em></p>
+
 </body>
 </html>
