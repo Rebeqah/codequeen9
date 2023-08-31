@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mother{
+    background-color: white;
+    width: 1400px;
+    height: 600px;
+}
+
+.bluechild{
+    width: 700px;
+    height: 600px;
+    background-color: rgb(65, 153, 225);
+    float: left;
+    background-image: url(https://cdn.vox-cdn.com/thumbor/Kzg4FrwBJcXObC6B3kShSmzgxNA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/24560039/Blue_check_marks_2.jpg);
+    
+}
+
+.whitechild{
+    width: 700px;
+    height: 600px;
+    float: right;
+    background-color: white;
+    }
+
+.content{
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    padding: 100px;
+}
+
+.form{
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+button{
+    border-radius: 50%;
+    padding: 10px;
+    border-color: blue;
+    background-color: white;
+}
+
+img{
+    
+}
+
+.fa-hashtag{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.fa-pen-to-square{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.fa-bookmark{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+

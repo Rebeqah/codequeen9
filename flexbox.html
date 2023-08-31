@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <link rel="stylesheet" href="flexbox.css">
+    <script src="https://kit.fontawesome.com/e0c55bbc1c.js" crossorigin="anonymous"></script>
+
+    <style>
+
+        .mother{
+            width: 1340px;
+            height: 590px;
+            background-image: url(https://images.pexels.com/photos/163703/woods-landscape-road-loyalsock-state-forest-163703.jpeg?cs=srgb&dl=pexels-pixabay-163703.jpg&fm=jpg);
+            background-size: cover;
+            display: flex;
+            flex: start;
+            flex-direction: row-reverse;
+            flex-wrap: nowrap;
+            
+        }
+        .glassmorph{
+            width: 50%;
+            height: 100%;
+            border-top: 2px solid #FFFFFF75;
+            border-left: 2px solid #FFFFFF75;
+            box-shadow: 5PX 5PX 12PX #00000035;
+            background: #FFFFFF25;
+            border-radius: 15px;
+            overflow: hidden;
+            backdrop-filter: blur(4px);
+            padding: 10px 20px 30px 20px;
+            color: antiquewhite;
+            font-weight: bold;
+        }
+        
+        .clear{
+            width: 50%;
+            height: 100%;
+            padding: 80px;
+            align-items: center;
+
+        }
+
+        h1{
+            font-size: 60px;
+            color: antiquewhite;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        .fa-brands{
+            color: antiquewhite;
+        }
+
+        .clearText{
+            color: antiquewhite;
+        }
+
+        button{
+            background-color:black;
+            color: antiquewhite;
+        }
+
+        input{
+             
+        }
+    </style>
+</head>
+
+<body>
+
+   
+    <div class="mother">
+        <div class="glassmorph">
+            <h2>About Me</h2>
+            <p>I am a good timekeeper, always willing to learn new skills. I am friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems.</p>
+
+            <img src="" alt="">
+ 
+        </div>
+
+        <div class="clear">
+            <header>
+                <nav>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-github"></i>
+                </nav>
+            </header>
+            <div class="clearText">
+            <h1>REBECCA NABEJJA</h1>
+            <h2>Welcome to My Upcoming Website!</h2>
+            <p style="font-size: 18px;">I am thrilled to announce that my new site is under construction and will be launching soon. As I work diligently to create the best possible experience for my visitirs, I invite you to join me on this journey.</p>
+            <br>
+            <br>
+
+
+            <input type="email" placeholder="Enter Your Email">
+            <button>Notify Me</button>
+            </div>
+
+            
+
+        </div>
+    </div>
+    <footer></footer>
+
+</body>
+</html>
