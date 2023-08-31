@@ -22,7 +22,7 @@
         }
         .glassmorph{
             width: 50%;
-            height: 100%;
+            height:92.5%;
             border-top: 2px solid #FFFFFF75;
             border-left: 2px solid #FFFFFF75;
             box-shadow: 5PX 5PX 12PX #00000035;
@@ -61,11 +61,99 @@
         button{
             background-color:black;
             color: antiquewhite;
+            margin-top: 50px;
+            width: 100%;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 5px;
+            cursor: pointer;
+
         }
 
         input{
-             
+             display: block;
+             height: 50px;
+             width: 100%;
+             background-color:khaki;
+             border-radius: 3px;
+             padding: 0 10px;
+             margin-top: 8px;
+             font-size: 14px;
+             font-weight: 300;
+            }
+
+        .logins{
+            height: 400px;
+            width: 400px;
+            position: absolute;
+            transform: (-50%, -50%);
+            top: 7%;
+            left: 10.5%;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            border: 2px solid;
+            box-shadow: 0 0 40px;
+            padding: 50px 35px;
+            
         }
+
+       form h3{
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 42px;
+        text-align: center;
+       }
+
+       form *{
+        letter-spacing: 0.5px;
+        outline: none;
+        border: none;
+       }
+
+       label{
+        display: block;
+        margin-top: 30px;
+        font-size: 16px;
+        font-weight: 500;
+       }
+
+       ::placeholder{
+        color:black;
+       }
+
+       .socials{
+        margin-top: 30px;
+        display: flex;
+       }
+
+       .socials div{
+        background: red;
+        width: 150px;
+        border-radius: 3px;
+        padding: 5px 10px 10px 5px;
+        background-color: #FFFFFF55;
+        color: aliceblue;
+        text-align: center;
+       }
+
+       .socials div:hover{
+        background-color: #FFFFFF25;
+       }
+
+       .socials .fb{
+        margin-left: 25px;
+       }
+
+       .socials .go{
+        margin-left: 25px;
+       }
+
+       .socials i{
+        margin-right: 4px;
+       }
+
+
     </style>
 </head>
 
@@ -74,10 +162,22 @@
    
     <div class="mother">
         <div class="glassmorph">
-            <h2>About Me</h2>
-            <p>I am a good timekeeper, always willing to learn new skills. I am friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems.</p>
+            <form action="" class="logins">
+                <h3>Login Here</h3>
 
-            <img src="" alt="">
+                <label for="username">Username</label>
+                <input type="text" placeholder="Email or Phone" id="username">
+
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" id="password">
+
+                <button>Log In</button>
+                <div class="socials">
+                    <div class="go"><i class="fa-brands fa-google"></i>    Google</div>
+                    <div class="fb"><i class="fa-brands fa-facebook"></i>Facebook</div>
+
+                </div>
+            </form>
  
         </div>
 
@@ -96,19 +196,13 @@
             <h1>REBECCA NABEJJA</h1>
             <h2>Welcome to My Upcoming Website!</h2>
             <p style="font-size: 18px;">I am thrilled to announce that my new site is under construction and will be launching soon. As I work diligently to create the best possible experience for my visitirs, I invite you to join me on this journey.</p>
-            <br>
-            <br>
-
-
-            <input type="email" placeholder="Enter Your Email">
-            <button>Notify Me</button>
             </div>
 
             
 
         </div>
     </div>
-    <footer></footer>
+    <footer> </footer>
 
 </body>
 </html>
